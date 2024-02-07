@@ -89,7 +89,6 @@ body {
 
 .layout__left {
     grid-area: layout__left;
-    background-color: #1E1E1E;
 }
 
 
@@ -139,7 +138,7 @@ body {
     text-align: center;
 }
 
-.center_buttons {
+.center__buttons {
     display: flex;
     flex-direction: row;
     gap: 1rem;
@@ -170,7 +169,6 @@ body {
 
 .layout__right {
     grid-area: layout__right;
-    background-color: #BFFADD;
 }
 
 
