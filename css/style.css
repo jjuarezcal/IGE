@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@800&family=Inter:wght@200;300;400;500&display=swap');
 :root {
     --font-family: 'Inter', sans-serif;
+    --darwin-color: #03c9a9;
     --body-background-mode: #1E1E1E;
     --background-color: #2e2e30;
     --background-color-secondary: #424244;
@@ -27,7 +28,6 @@ body {
     width: 100%;
     display: grid;
     grid: "layout__header layout__header layout__header" 1fr "layout__slide layout__slide layout__slide" 2fr "layout__left layout__center layout__right" 3fr / 1fr 1fr 1fr;
-    gap: 8px;
 }
 
 
@@ -38,7 +38,28 @@ body {
 
 .layout__header {
     grid-area: layout__header;
-    background-color: #5BAAE2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e2e30;
+}
+
+.header__logo-darwin {
+    margin-left: 3rem;
+}
+
+.header__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-right: 3rem;
+    border-radius: 50%;
+    background-color: var(--darwin-color);
+    color: var(--background-color-ligth);
 }
 
 
