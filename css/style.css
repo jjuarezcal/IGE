@@ -27,7 +27,7 @@ body {
 .layout {
     width: 100%;
     display: grid;
-    grid: "layout__header layout__header layout__header" 1fr "layout__slide layout__slide layout__slide" 2fr "layout__slide layout__slide layout__slide" 2fr "layout__left layout__center layout__right" 3fr / 1fr 1fr 1fr;
+    grid: "layout__header layout__header layout__header" auto "layout__slide layout__slide layout__slide" auto "layout__slide layout__slide layout__slide" 2fr "layout__left layout__center layout__right" 3fr / 1fr 1fr 1fr;
 }
 
 
@@ -109,6 +109,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 4rem;
+    margin-top: 9rem;
 }
 
 .center__logo {
