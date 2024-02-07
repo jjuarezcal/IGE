@@ -105,6 +105,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
     background-image: url(../images/center-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,7 +128,7 @@ body {
 }
 
 .center__name {
-    font-weight: 400;
+    font-weight: 600;
     color: var(--body-background-mode);
     text-align: center;
 }
@@ -138,11 +139,28 @@ body {
     text-align: center;
 }
 
-.center_buttons {}
+.center_buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
 
-.center__btn {}
+.center__btn {
+    background-color: #03c9a9;
+    color: #FFFFFF;
+    border-radius: 3rem;
+    text-align: center;
+    padding: 0.8rem 1.2rem;
+    border: none;
+}
 
-.center__btn--contacto {}
+.center__btn--contacto {
+    color: #03c9a9;
+    border-radius: 3rem;
+    text-align: center;
+    padding: 0.8rem 1.2rem;
+    border: 1px solid #03c9a9;
+}
 
 
 /* FIN CENTER */
