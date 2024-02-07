@@ -89,6 +89,24 @@ body {
 
 .layout__left {
     grid-area: layout__left;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.left__top {
+    box-shadow: 0 3px 4px 1px rgba(39, 39, 39, .1), 0 6px 9px 0 rgba(39, 39, 39, .1);
+}
+
+.left__middle {
+    box-shadow: 0 3px 4px 1px rgba(39, 39, 39, .1), 0 6px 9px 0 rgba(39, 39, 39, .1);
+}
+
+.left__bottom {
+    box-shadow: 0 3px 4px 1px rgba(39, 39, 39, .1), 0 6px 9px 0 rgba(39, 39, 39, .1);
 }
 
 
